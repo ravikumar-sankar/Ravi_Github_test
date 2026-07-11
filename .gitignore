@@ -1,3 +1,14 @@
 node_modules/
+dist/
+coverage/
 .DS_Store
 *.log
+.env
+.env.*
+*.pem
+*.key
+.forge-commit-ready
+.forge/project-id
+.cursor/hooks.json
+.cursor/hooks/
+.cursor/rules/forge-workflow.mdc
