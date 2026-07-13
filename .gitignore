@@ -15,6 +15,8 @@ coverage/
 .env.*
 *.pem
 *.key
+*.p12
+*.pfx
 
 # Logs
 *.log
