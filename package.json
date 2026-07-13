@@ -11,10 +11,14 @@
     "test": "jest",
     "test:coverage": "jest --coverage",
     "format": "prettier --write .",
+    "prepare": "husky",
     "start:dev": "ts-node src/index.ts"
   },
   "engines": {
     "node": ">=18"
+  },
+  "lint-staged": {
+    "*.ts": ["eslint --fix", "prettier --write"]
   },
   "devDependencies": {
     "@commitlint/cli": "^19.8.1",
