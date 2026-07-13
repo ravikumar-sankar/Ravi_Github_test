@@ -21,7 +21,7 @@
     "*.ts": ["eslint --fix", "prettier --write"]
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.8.1",
+    "@commitlint/cli": "^21.2.1",
     "@commitlint/config-conventional": "^19.8.1",
     "@types/jest": "^29.5.14",
     "@types/node": "^22.15.21",
