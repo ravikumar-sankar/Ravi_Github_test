@@ -1,0 +1,47 @@
+name: Security Disclosure
+description: Report a security vulnerability responsibly
+title: "[Security]: "
+labels:
+  - security
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For sensitive reports, prefer [GitHub Security Advisories](https://docs.github.com/en/code-security/security-advisories).
+  - type: dropdown
+    id: vulnerability_type
+    attributes:
+      label: Vulnerability type
+      options:
+        - Secret exposure
+        - Dependency vulnerability
+        - Injection / code execution
+        - Authentication / authorization
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: component
+    attributes:
+      label: Affected component
+      placeholder: workflow, dependency, source file, etc.
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity assessment
+      options:
+        - Critical
+        - High
+        - Medium
+        - Low
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps
+      description: Provide minimal steps to reproduce (no real secrets)
+    validations:
+      required: true
