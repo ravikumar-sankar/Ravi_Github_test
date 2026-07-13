@@ -1,0 +1,16 @@
+# Default owner
+* @ravikumar-sankar
+
+# GitHub configuration and workflows
+.github/ @ravikumar-sankar
+
+# Documentation
+docs/ @ravikumar-sankar
+
+# Root configuration files
+/*.json @ravikumar-sankar
+/*.js @ravikumar-sankar
+/*.ts @ravikumar-sankar
+commitlint.config.js @ravikumar-sankar
+jest.config.ts @ravikumar-sankar
+tsconfig.json @ravikumar-sankar
