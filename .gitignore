@@ -38,3 +38,6 @@ Thumbs.db
 .cursor/hooks.json
 .cursor/hooks/
 .cursor/rules/forge-workflow.mdc
+
+# Local validation clones
+.tmp-validate-*

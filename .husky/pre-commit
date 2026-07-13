@@ -1,1 +1,2 @@
+bash scripts/opsera-pre-commit-scan.sh
 npx lint-staged
