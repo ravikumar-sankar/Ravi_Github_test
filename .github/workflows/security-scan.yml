@@ -41,7 +41,7 @@ jobs:
           languages: javascript-typescript
 
       - name: Perform CodeQL analysis
-        uses: github/codeql-action/analyze@8096e4f9571939c23cbd19018c44c665f90096af # v3.30.5
+        uses: github/codeql-action/analyze@a7afe0a2d717fe23bf93c8d8239d4f43c4a40f02 # v3.30.5
 
   npm-audit:
     name: npm audit
